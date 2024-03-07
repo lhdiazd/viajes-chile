@@ -1,0 +1,42 @@
+:root {
+    --white: #fff;
+}
+
+
+body {
+    
+
+}
+
+nav.navbar a span{
+    font-size: 1.3rem;
+}
+
+nav.navbar a{
+    color: var(--white);
+    font-size: 1rem;
+}
+
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+#carouselImg img{
+    max-height: 920px;
+    
+}
