@@ -1,6 +1,5 @@
 $(document).ready(function () {
-    // Muestra el modal con el ID "exampleModal" al cargar la página
-    $('#exampleModal').modal('show');
+    
 
     // Activa el tooltip de Bootstrap para elementos con el atributo "data-bs-toggle" igual a "tooltip"
     $('[data-bs-toggle="tooltip"]').tooltip();
@@ -23,5 +22,8 @@ $(document).ready(function () {
             });
         }
     });
+
+    // Muestra el modal con el ID "exampleModal" al cargar la página
+    $('#exampleModal').modal('show');
 });
 
