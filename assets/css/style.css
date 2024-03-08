@@ -12,26 +12,35 @@ nav.navbar a span{
     font-size: 1.3rem;
 }
 
-nav.navbar a{
+nav.navbar a, article p{
     color: var(--white);
     font-size: 1rem;
 }
 
+section h4{
+    color: var(--white);
+    
+}
 
-.roboto-light {
-    font-family: "Roboto", sans-serif;
+hr{
+    width: 90%;
+}
+
+
+.cabin-light {
+    font-family: "Cabin", sans-serif;
     font-weight: 300;
     font-style: normal;
 }
 
-.roboto-regular {
-    font-family: "Roboto", sans-serif;
+.cabin-regular {
+    font-family: "Cabin", sans-serif;
     font-weight: 400;
     font-style: normal;
   }
 
-.roboto-medium {
-    font-family: "Roboto", sans-serif;
+.cabin-medium {
+    font-family: "Cabin", sans-serif;
     font-weight: 500;
     font-style: normal;
   }
