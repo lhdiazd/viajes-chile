@@ -17,13 +17,38 @@ nav.navbar a, article p{
     font-size: 1rem;
 }
 
+.navbar-toggler{
+    filter: invert(1);    
+}
+
+
+
 section h4{
     color: var(--white);
     
 }
 
+.custom-tooltip {
+    --bs-tooltip-bg: rgb(17, 95, 126);   
+  }
+
 hr{
-    width: 90%;
+    width: 95%;
+}
+
+.card{
+    max-width:17rem;
+    
+}
+
+.card img{
+    max-height: 150px;
+}
+
+
+h5{
+    font-size: 1.2rem;
+    
 }
 
 
@@ -46,6 +71,13 @@ hr{
   }
 
 #carouselImg img{
-    max-height: 920px;
+    max-height: 850px;
     
+}
+
+@media (min-width: 1280px) {
+    .row#cardContainer{
+        display: flex;
+        justify-content: space-between;
+    }    
 }
